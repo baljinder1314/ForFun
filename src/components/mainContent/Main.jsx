@@ -1,5 +1,5 @@
 import React from "react";
-import Cards from "../itamCards/Cards"
+import Cards from "../itamCards/Cards";
 function Main() {
   return (
     <div>
@@ -23,8 +23,8 @@ function Main() {
           nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.
         </p>
-        
-          <Cards />
+
+        <Cards />
       </div>
     </div>
   );

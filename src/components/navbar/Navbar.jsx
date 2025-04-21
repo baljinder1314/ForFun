@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { FaSearch } from "react-icons/fa";
-import { Store } from "../../store/store";
+import { Store } from "../../store/Store";
 function Navbar() {
   const { handleNavbar, nav } = useContext(Store);
 return (

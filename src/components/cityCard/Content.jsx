@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import CityCard from "./CityCard";
-import { Store } from "../../store/store";
-
+import {Store} from "../../store/Store"
 function Content() {
   const {bgColor} = useContext(Store);
   return (
