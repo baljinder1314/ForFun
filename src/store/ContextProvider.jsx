@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Store } from "./store";
 export const ContextProvider = ({ children }) => {
   const [nav, setNav] = useState(false);
   const [bgColor, setBgColor] = useState(false);
